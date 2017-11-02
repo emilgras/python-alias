@@ -2,6 +2,24 @@
 
 I recently discovered a cool thing that will make your Python development a tiny bit more enjoyable. If you, like me, have different versions of python installed on your machine i.e. 2.7 and 3.6, you are most likely familir with typing something like `$ python3 script.py` or maybe `pip3 install requests` in your terminal. And if you need to run a python2.x script you can simply use `python script.py` or `pip install requests`. 
 
+Let me show you what i mean
+```sh
+
+$ python --version
+Python 2.7.13
+
+$ pip --version
+pip 9.0.1 from /usr/local/lib/python2.7/site-packages (python 2.7)
+
+
+$ python3 --version
+Python 3.6.1
+
+$ pip4
+pip 9.0.1 from /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages (python 3.6)
+
+```
+
 The problem here is that, I usualy only use Python 3.x so I find it a little annoying that i have to type that `3` after `python` everytime. It is extra work and even though it seems like such a small thing, I really wanted to fix this.
 
 Luckily, there is an easy solution to this. It turns out you can actually define your own aliases for various commands in the terminal. For instance, if you write in your terminal:
