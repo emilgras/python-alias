@@ -1,10 +1,10 @@
-# How to change your python alias
+# How to change your python aliases
 
-I recently discovered a cool thing that will make your Python development a tiny bit more enjoyable. If you - like me - have different versions of python installed on your machine i.e. 2.7 and 3.6, you are most likely familir with typing something like this `$ python3 script.py` or maybe `pip3 install requests` in your terminal. And if you need to run a python2.x script you can simply use `python script.py` or `pip install requests`. 
+I recently discovered a cool thing that will make your Python development a tiny bit more enjoyable. If you, like me, have different versions of python installed on your machine i.e. 2.7 and 3.6, you are most likely familir with typing something like `$ python3 script.py` or maybe `pip3 install requests` in your terminal. And if you need to run a python2.x script you can simply use `python script.py` or `pip install requests`. 
 
-The problem here is that i for the most time only use Python 3.x, and so i find it a little annoying that i have to type that `3` after `python` everytime. It is jsu extra work even though it seems like such a small thing i really wanted to fix this.
+The problem here is that, I usualy only use Python 3.x so I find it a little annoying that i have to type that `3` after `python` everytime. It is extra work and even though it seems like such a small thing, I really wanted to fix this.
 
-Luckily there is an easy solution to this. It turns out you can actually define your own aliases for various commands in the terminal. For instance, if you write in your terminal:
+Luckily, there is an easy solution to this. It turns out you can actually define your own aliases for various commands in the terminal. For instance, if you write in your terminal:
 
 ```sh
 
@@ -12,7 +12,7 @@ $ alias python=python3
 
 ```
 
-and hit enter then you should be able to reference `python3` just by writing `python`. Amazing!
+and hit enter then you should be able to reference `python3` just by writing `python`. Amazing! Lets try it out.
 
 ```sh
 
@@ -21,9 +21,9 @@ Python 3.6.1
 
 ```
 
-But, this alias only lives as long as your terminal session lives. Meaning, that when you close your terminal and open it up again it has forgotten about your cool new alias. 
+But, this alias only lives as long as your terminal session lives. Meaning, that when you close your terminal and open it up again, it has forgotten about your cool new alias. 
 
-So, the way to fix this more permanently is to update your .bashrc file. The .bashrc file is a script that is executed whenever a new terminal session is started in. It is similar to the .bash_profile. You can look it up if your are more curous. What you have to do is the following:
+So, the way to fix this more permanently is to update your .bashrc file. The .bashrc file is a script that is executed whenever a new terminal session is started. It is similar to the .bash_profile. You can look it up if your are curious. What you have to do is the following:
 
 ```sh
 
